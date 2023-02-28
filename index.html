@@ -20,6 +20,8 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/modal.css"/>
+		
 	</head>
 
 	<body>
@@ -47,7 +49,7 @@
 			<section class="banner-section">
 				<div class="container">
 					<h1 class="banner-slogan">Effective Solutions for Your Business</h1>
-					<button class="btn btn-blue" type="button">Order Service</button>
+					<button data-modal-open class="btn btn-blue" type="button">Order Service</button>
 				</div>
 			</section>
 			<section class="features">
@@ -378,5 +380,16 @@
 				</div>
 			</div>
 		</footer>
+
+		<div data-modal class="backdroup is-hidden">
+			<div class="modal">
+				<button class="close-button" data-modal-close>
+					<svg class="svg-close">
+						<use href="./images-ikon/icons.svg#icon-close-button"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
 	</body>
+	<script src="./js/modal.js"></script>
 </html>
