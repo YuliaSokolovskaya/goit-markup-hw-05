@@ -84,9 +84,13 @@ a {
     font-weight: 500;
     font-size: 16px;
     padding: 27px 0;
+    transition-property: color;
+    transition-duration: 250ms;
 }
 .nav-link:hover, .nav-link:focus, .nav-link.current {
     color: var(--active-link-color);
+    
+    
 }
 
 .current {
@@ -108,6 +112,8 @@ a {
     font-size: 16px;
     color: var(--text-color-grey);
     font-weight: 400;
+    transition-property: color;
+    transition-duration: 250ms;
 
 }
 
@@ -186,6 +192,8 @@ a {
     letter-spacing: 0.04em;
     line-height: 1.5;
     font-family: var(--main-font-family);
+    transition-property: all ;
+    transition-duration: 250ms;
 }
 
 .btn-blue {
@@ -194,6 +202,8 @@ a {
     color: #FFFFFF;
     border: none;
     padding: 16px 32px;
+    
+    
    
      
 }
@@ -205,6 +215,7 @@ a {
     background-color: #F4F4FD;
     color: var(--brand-color);
     border: 1px solid #E7E9FC;
+  
 }
 
 
@@ -344,9 +355,12 @@ background-color: #FFFFFF;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
 }
 .social-link:hover, .social-link:focus {
     background-color: var(--active-link-color);
+    
 }
 
 .footer .social-link {
@@ -373,6 +387,8 @@ background-color: #FFFFFF;
     fill: currentColor;
     color: #8e8f99;
     width: 168px;
+    transition-property: color;
+    transition-duration: 250ms;
 }
 .customer-link:hover, .customer-link:focus {
     color: var(--active-link-color);
@@ -434,6 +450,10 @@ background-color: #FFFFFF;
     height: 16px;
     
     
+}
+.footer .svg-team {
+    width: 24px;
+    height: 24px;
 }
 
 .svg-our-team{
